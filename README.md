@@ -23,9 +23,9 @@ This mock-up utilizes a pre-conceived page design which I will follow for the pa
 
 The main requirements for the portfolio mock-up were completed on Monday, May 14, 2018.  There remain some outstanding concerns with effectively using CSS to achieve a modern and responsive layout using Flexbox.
 
-### Questions I'd like to address:
+## Questions I'd like to address:
 - Why do divs inside containers require the enclosing container to be set with a fixed width before you can center nested elements?  How does this influence decision-making about responsive CSS.
 
--For the common flexbox pattern, _layout shifter_, I was unable to get the styling rule "justify-content" to work as specified by the MDN article on [this topic](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container).  Understanding _why_ my CSS sheet prevented functionality of this rule will require follow-up research.
+- For the common flexbox pattern, _layout shifter_, I was unable to get the styling rule "justify-content" to work as specified by the MDN article on [this topic](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container).  Understanding _why_ my CSS sheet prevented functionality of this rule will require follow-up research.
 
 - The media query used to alter the "Featured Work" section of my layout only after exceeding a viewport width of 1043px was a major compromise of my planned design. After finding that, at smaller viewport widths, applying the style-rule "float: left;" created problems with the images in this section overlapping at the breakpoint, I was forced to settle with a design where a larger than favorable margin is created between the first two images in the row.  Alternate ways to handle how to work with appropriately wrapping content in a flex container will have to be explored further.
