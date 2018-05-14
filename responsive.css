@@ -1,0 +1,62 @@
+@media screen and (max-width: 1040px) {
+    .container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .header-inner {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    #container2 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #container2 .box {
+        /* Assigning a fixed width to .box inside it's container allows for centering the image*/
+        width: 329px;
+        margin: 0 auto;
+    }
+
+    .featured-title {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* .featured-image {
+        This rule mysteriously has no effect on aligning the image inside the .box div.
+        Had to settle for the above fix - setting fixed width to the .box div inside of #container
+        justify-content: center;
+    } */
+}
+
+/* The following media query works to end the
+responsive behavior of the page once the width of
+the viewport exceeds 1043px */
+@media screen and (min-width: 1041px) {    
+    .container {
+        width: 1043px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #container2 .box {
+        /*Still having problem of images overlapping due to float between 920 and 1000px viewport width */
+        float: left;
+        margin-right: 28px;
+        max-width: 329px;
+        width: calc((100% - 28px)/3);
+    }
+
+    #container2 .box:last-of-type {
+        margin-right: 0;
+    }
+}

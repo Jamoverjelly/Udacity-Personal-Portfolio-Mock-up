@@ -1,0 +1,80 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+/*
+*
+* Header
+*
+*/
+
+.header {
+    width: 100%;
+    margin-top: 70px;
+    padding-bottom: 30px;
+    border-bottom: 6px solid #7d97ad;
+    margin-bottom: 36px;
+    color: #2d3c49;
+}
+
+.header-logo {
+    float: left;
+}
+  
+.header-title {
+    font-size: 46px;
+    font-weight: 100;
+    text-align: right;
+}
+
+.header-subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: right;
+}
+
+/*
+*
+* Main
+*
+*/
+
+.main {
+    padding-bottom: 15px;
+}
+
+.main-image {
+    max-width: 100%;
+}
+
+/*
+*
+* Featured Work
+*
+*/
+
+.featured-title {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    color: #7d97ad;
+}
+
+.featured-image-caption {
+    text-align: center;
+}
+
+.featured-image-title {
+    margin: 0 20px;
+    font-size: 32px;
+}
+
+.featured-image-url {
+    margin: 0 0 20px 0;
+}
