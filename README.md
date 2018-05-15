@@ -23,7 +23,7 @@ This mock-up utilizes a pre-conceived page design which I will follow for the pa
 
 The main requirements for the portfolio mock-up were completed on Monday, May 14, 2018.  There remain some outstanding concerns with effectively using CSS to achieve a modern and responsive layout using Flexbox.
 
-## Questions I'd like to address:
+## Follow-up Concerns I'd Like to Address:
 - Why do divs inside containers require the enclosing container to be set with a fixed width before you can center nested elements?  How does this influence decision-making about responsive CSS.
 
 - For the common flexbox pattern, _layout shifter_, I was unable to get the styling rule "justify-content" to work as specified by the MDN article on [this topic](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container).  Understanding _why_ my CSS sheet prevented functionality of this rule will require follow-up research.
